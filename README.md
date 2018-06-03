@@ -5,6 +5,9 @@ yum update -y
  
 reboot
 
+systemctl stop NetworkManager
+systemctl disable NetworkManager
+
 # Install DNS and Git 
 yum install wget
 
