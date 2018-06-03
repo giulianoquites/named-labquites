@@ -18,7 +18,7 @@ yum install bind-utils.x86_64 bind.x86_64 -y
 
 yum install git -y
 
-# Clone repo and config
+# Clone repo and config in DNS
 git clone git@github.com:giulianoquites/named-labquites.git
 
 cd named-labquites
