@@ -1,0 +1,41 @@
+$TTL 86400
+;$ORIGIN 15.168.192.in-addr.arpa.
+@       IN SOA  ns01.labquites.local. gquites.labquites.local. (
+                                	10      ; serial
+                                        1D      ; refresh
+                                        1H      ; retry
+                                        1W      ; expire
+                                        3H )    ; minimum
+
+@ 		IN NS ns01.labquites.local.
+@ 		IN NS ns02.labquites.local.
+
+
+132   	IN     	PTR  ns01.labquites.local.
+133   	IN      PTR  ns02.labquites.local.
+60 	IN 	PTR srvovirtnode01.labquites.local.
+61 	IN 	PTR srvovirtnode02.labquites.local.
+132   IN      PTR  srvdns01.labquites.local.
+133   IN      PTR  srvdns02.labquites.local.
+120   IN      PTR  srvjenk01.labquites.local.
+121   IN      PTR  srvgit01.labquites.local.
+122   IN      PTR  srvdocker01.labquites.local.
+123   IN      PTR  srvdocker02.labquites.local.
+125   IN      PTR  srvansible01.labquites.local.
+126   IN      PTR  srvopenshift01.labquites.local.
+127   IN      PTR  srvchef01.labquites.local.
+128   IN      PTR  srvtheforman01.labquites.local.
+130   IN      PTR  srvzabbix01.labquites.local.
+131   IN      PTR  srvpuppet01.labquites.local.
+134   IN      PTR  srvmysql01.labquites.local.
+135   IN      PTR  srvchefwork01.labquites.local.
+136   IN      PTR  srvchefnode01.labquites.local.
+137   IN      PTR  srvpostgresql01.labquites.local.
+138   IN      PTR  srvopenstack01-test.labquites.local.
+140   IN      PTR  srvovirt01.labquites.local.
+142   IN      PTR  srvnginxproxy.labquites.local.
+143   IN      PTR  srvnginx01.labquites.local.
+144   IN      PTR  srvnginx02.labquites.local.
+145   IN      PTR  srvsamba01.labquites.local.
+146   IN      PTR  srvopenldap01.labquites.local.
+147   IN      PTR  srvapache01.labquites.local.

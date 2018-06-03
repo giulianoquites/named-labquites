@@ -1,10 +1,11 @@
+$TTL 86400
 @       IN SOA  ns01.labquites.local. gquites.labquites.local. (
-                                2014030801      ; serial
+                                2018031443      ; serial
                                         1D      ; refresh
                                         1H      ; retry
                                         1W      ; expire
                                         3H )    ; minimum
-@                     NS      ns01.labquites.local.
+@       				NS      ns01.labquites.local.
 @                     IN      A       	 192.168.15.132
 ns01                  IN      A       	 192.168.15.132
 ns02                  IN      A       	 192.168.15.133
